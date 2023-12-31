@@ -1,0 +1,114 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    margin: 0;
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla','sans-serif';
+}
+
+.main {
+    display: flex;
+    margin-top: 200px;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    border: 0px;
+}
+
+.container1-m {
+    width: 600px;
+    height: 100%;
+    background-color: white;
+    padding: 20px;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+}
+
+.container2-l, .container2-r {
+    width: 300px;
+    padding-left: 20px;
+    padding-top: 10px;
+    height: 230px
+}
+
+.container2-l {
+    background-color: hsl(179, 62%, 43%);
+}
+
+.container2-r {
+    background-color: hsla(179, 62%, 43%, 85%);
+}
+
+.text-white-text {
+    padding: 0% !important;
+    margin: 0.5%;
+    color: lightgrey;
+}
+
+.heading-white-text{
+    color:whitesmoke
+}
+
+.sign-up-button-div {
+    width: 300px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-button{
+    position: absolute;
+    padding: 10px;
+    margin-top: 70px;
+    width: 70%;
+    text-align: center;
+    background-color: hsl(71, 73%, 54%);
+    font-family: 'Karla','sans-serif';
+    color:whitesmoke;
+    border: 0px;
+    border-radius: 4px
+    
+}
+
+
+.sign-up-button:hover {
+    cursor: pointer;
+    opacity: 90%;
+    position: absolute;
+    padding: 10px;
+    margin-top: 70px;
+    width: 70%;
+    text-align: center;
+    background-color: hsl(71, 73%, 54%);
+    font-family: 'Karla','sans-serif';
+    color:whitesmoke
+}
+
+.dollar-val-text {
+    padding: 7px; 
+    padding-bottom: 0px;
+    color: lightgrey;
+}
+
+
+.yellow-heading{
+    color: hsl(71, 73%, 54%)
+}
+
+.green-heading{
+    color: hsl(179, 62%, 43%)
+}
+
+
+.grey-text {
+    color: grey
+}
